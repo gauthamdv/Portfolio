@@ -4,8 +4,6 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "/ai-mindscape-09/",   // 👈 ADD THIS LINE
-
   server: {
     host: "::",
     port: 8080,
